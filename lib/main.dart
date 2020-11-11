@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:dicoding_codelab/detail_screen.dart';
+import 'package:dicoding_codelab/main_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         fontFamily: 'Quicksand',
       ),
-      home: DetailScreen(),
+      home: MainScreen(),
     );
   }
 }
